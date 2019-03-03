@@ -1,0 +1,55 @@
+<div id="user-header-container">
+
+    {{!-- Name of user shows up --}}
+    <div id='personal-info-container'>
+        <div id="info-tightener">
+            <span id="firstNameDisplay">{{firstName}}</span>
+
+            <span id="lastNameDisplay">{{lastName}}</span>
+        </div>
+
+        <span id="locationDisplay">{{location}}</span>
+    </div>
+</div>
+
+
+<div class="commentarea">
+    <div class="row">
+        <div class="col-md-3">
+
+        </div>
+        <div class="col-md-6">
+            {{!-- Text area to leave comments --}}
+            <form action="/api/posts" class="create-comment-textarea">
+                <div class="form-group">
+                    <label for="post">Post:</label>
+                    <textarea placeholder="Comment Away About Your Beer Experience!" class="form-control" rows="5" id="post-comment"></textarea>
+
+
+                    <div class="row beerbarrow">
+                        <input type="favbeer" placeholder="Beer:" class="form-control" id="favbeerinput">
+                        <input type="favbar" placeholder="Bar:" class="form-control" id="favbarinput">
+                    </div>
+                    <button type="button" class="btn btn-outline-dark btn-lg mt-3" id="commentbutton">Post</button>
+            </form>
+        </div>
+        <div class="col-md-3">
+
+        </div>
+    </div>
+</div>
+
+{{!-- Comments get posted here --}}
+
+<div class="row">
+    <div class="col-md-3">
+    </div>
+    <div class="col-md-6">
+
+        <h2>Comments</h2>
+        {{> postcontainer}}
+    </div>
+    <div class="col-md-3">
+
+    </div>
+</div>
