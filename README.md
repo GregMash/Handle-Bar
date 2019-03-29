@@ -18,6 +18,12 @@ To see a live demo, Please click [here](https://limitless-basin-10585.herokuapp.
 - [Greg Mash](https://github.com/GregMash)
 - [Bonnie Acuna](https://github.com/BonnieAcuna)
 
+## Screenshot(s)
+
+<img width="1049" alt="Screen Shot 2019-03-29 at 4 29 18 PM" src="https://user-images.githubusercontent.com/42223683/55267578-2eea4380-5240-11e9-9b6b-01fedc456b34.png">
+<img width="400" alt="Screen Shot 2019-03-29 at 4 30 20 PM" src="https://user-images.githubusercontent.com/42223683/55267576-2eea4380-5240-11e9-9c9b-6d129a026f21.png">
+<img width="678" alt="Screen Shot 2019-03-29 at 4 31 16 PM" src="https://user-images.githubusercontent.com/42223683/55267577-2eea4380-5240-11e9-9331-e7682b693a11.png">
+
 ## Functionality
 
 On the Front End, the app utilizes `jQuery`, `AJAX`, `HTML/CSS`, `Handlebars.js`,and `Moment.js`.
