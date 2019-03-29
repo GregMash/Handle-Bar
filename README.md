@@ -1,8 +1,8 @@
-# Beer Social App
+# Handle Bar
 
 ## Overview
 
-Beer Social App is a web application allowing users to share their beer
+Handle Bar is a full stack beer social application allowing users to share their beer
 experiences.
 
 Users sign up and log into the app to post about their beer experience. Once the user finished sharing
